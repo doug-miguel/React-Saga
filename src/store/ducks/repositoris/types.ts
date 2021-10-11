@@ -3,12 +3,10 @@ export enum RepositoriesTypes {
     LOAD_SUCCES = '@repositories/LOAD_SUCCES',
     LOAD_FAILURE = '@repositories/LOAD_FAILURE',
 };
-
 export interface Repository {
     id: number,
     name: string
 };
-
 export interface RepositoriesState {
     readonly data: Repository[],
     readonly loading: boolean,

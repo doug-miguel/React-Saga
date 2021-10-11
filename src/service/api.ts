@@ -1,9 +1,7 @@
 import axios from 'axios';
 
-const newLocal = 'https://api.github.com';
-
 const api = axios.create({
-  baseURL: newLocal
+  baseURL: 'https://api.github.com'
 });
 
 export default api;
